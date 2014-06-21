@@ -1,0 +1,62 @@
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit; }
+
+video#bgvid{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(../images/cover.jpg) no-repeat;
+  background-size: cover; 
+}
+h1{
+  font-weight: 200;
+  color:black;
+  margin: 0 0;
+  color:rgba(0,163,172,1);
+  font-size: 100px;
+}
+p{
+    font-weight: 300;
+}
+
+.test{ 
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:30px;
+    left:55%;
+    top:22%;
+    right:11%;
+}
+.test-header{ 
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:42px;
+    font-weight:bold;
+    left:40%;
+    top:5%;
+}
+.logo{
+  width:512px;
+  height: 512px;
+  padding-top: 115px;
+  padding-left: 125px;
+}
